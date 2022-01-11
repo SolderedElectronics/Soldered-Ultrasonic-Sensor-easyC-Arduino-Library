@@ -12,12 +12,11 @@
 #include "Ultrasonic-distance-sensor-with-easyC-SOLDERED.h"
 
 /**
- * @brief 
- * 
+ * @brief
+ *
  */
 Ultrasonic_Sensor::Ultrasonic_Sensor()
 {
-
 }
 
 /**
