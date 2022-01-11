@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['address_0',['address',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a1dd9b5dd497f94fc119e877216ee51ca',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['address_0',['address',['../class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html#ae7209a7faef806e1fafeb06765a31e12',1,'ULTRASONIC_DISTANCE_SENSOR::EasyC']]]
 ];

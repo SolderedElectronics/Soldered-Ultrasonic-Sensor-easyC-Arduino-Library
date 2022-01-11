@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begindone_0',['beginDone',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa55074f480410ec00272d0a23b540074',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['begindone_0',['beginDone',['../class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html#a0dafc07420920a8ba448bb2079ccde55',1,'ULTRASONIC_DISTANCE_SENSOR::EasyC']]]
 ];

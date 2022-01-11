@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a6cc54c42df12088fb26c95d7aabb4534',1,'EASYC_SOLDERED_LIBS::EasyC::begin()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aaf85911806bdd2b01162047e53c0090b',1,'EASYC_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]],
-  ['begindone_1',['beginDone',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa55074f480410ec00272d0a23b540074',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['begin_0',['begin',['../class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html#a0db4591cc02e4fdec289d436c41deedd',1,'ULTRASONIC_DISTANCE_SENSOR::EasyC::begin()'],['../class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html#af97d563c59d64e15747268836ae503b5',1,'ULTRASONIC_DISTANCE_SENSOR::EasyC::begin(uint8_t _address)']]],
+  ['begindone_1',['beginDone',['../class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html#a0dafc07420920a8ba448bb2079ccde55',1,'ULTRASONIC_DISTANCE_SENSOR::EasyC']]]
 ];
