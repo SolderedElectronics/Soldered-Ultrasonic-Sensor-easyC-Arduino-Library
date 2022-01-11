@@ -15,9 +15,8 @@
 #define trigPin 1 //attach pin PA5 Arduino to pin Trig of HC-SR04
 
 int addr = DEFAULT_ADDRESS;
-char reg_addr[4];
-uint8_t bytes_received=0;
-uint32_t duration; // variable for the duration of sound wave travel
+char reg_addr;
+uint16_t duration; // variable for the duration of sound wave travel
 uint16_t distance; // variable for the distance measurement
 
 void setup()
@@ -45,7 +44,7 @@ uint16_t getDistance()
     delayMicroseconds(10);
     digitalWrite(trigPin, LOW);
     // Reads the echoPin, returns the sound wave travel time in microseconds
-    duration = pulseIn(echoPin, HIGH,38);
+    duration = pulseIn(echoPin, HIGH, 38000);
     // Calculating the distance
     return duration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
 }
@@ -53,15 +52,13 @@ uint16_t getDistance()
 
 void receiveEvent(int howMany)
 {   
-    bytes_received=0;
     while (1 < Wire.available())
     {
-        reg_addr[bytes_received] = Wire.read();
-        bytes_received++;
+        reg_addr = Wire.read();
     }
 
-    reg_addr[bytes_received] = Wire.read();
-    if(reg_addr[0]==1)
+    reg_addr = Wire.read();
+    if(reg_addr==0)
     {
         distance=getDistance();
     }
@@ -69,12 +66,20 @@ void receiveEvent(int howMany)
 
 void requestEvent()
 {
-    if(reg_addr[0]==0)
-    {
-        int n = 2;
-        char a[2];
-        a[0] = distance & 0xFF;
-        a[1] = (distance >> 8) & 0xFF;
-        Wire.write(a, n);
-    }
+  if(reg_addr==1)
+  {
+    int n = 2;
+    char a[2];
+    a[0] = distance & 0xFF;
+    a[1] = (distance >> 8) & 0xFF;
+    Wire.write(a, n);
+  }
+  if(reg_addr==2)
+  {
+    int n = 2;
+    char a[2];
+    a[0] = duration & 0xFF;
+    a[1] = (duration >> 8) & 0xFF;
+    Wire.write(a, n);
+  }
 }

@@ -10,8 +10,15 @@
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin		KEYWORD2
+getDuration	KEYWORD2
+getDistance	KEYWORD2
+takeMeasure	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+
+TAKE_MEAS_REG 	LITERAL1
+DISTANCE_REG 	LITERAL1
+DURATION_REG 	LITERAL1
