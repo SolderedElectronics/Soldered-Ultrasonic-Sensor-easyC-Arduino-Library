@@ -19,7 +19,7 @@ You can find hardware design for this board in Ultrasonic distance sensor hardwa
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here]( https://e-radionicacom.github.io/Soldered-Ultrasonic-Distance-Sensor-with-easyC-Arduino-Library/).
 
 - Tutorial for using the Ultrasonic distance sensor board
 - Installing an Arduino library
