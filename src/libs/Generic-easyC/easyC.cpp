@@ -11,7 +11,7 @@
 
 #include "easyC.h"
 
-namespace EASYC_SOLDERED_LIBS
+namespace ULTRASONIC_DISTANCE_SENSOR
 {
 
 /**
@@ -117,4 +117,4 @@ int EasyC::sendData(const uint8_t *a, int n)
     return err = Wire.endTransmission();
 }
 
-} // namespace EASYC_SOLDERED_LIBS
+} // namespace ULTRASONIC_DISTANCE_SENSOR
