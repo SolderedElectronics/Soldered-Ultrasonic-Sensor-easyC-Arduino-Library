@@ -40,10 +40,10 @@ void Ultrasonic_Sensor::initializeNative()
 
 /**
  * @brief                   This function sends command to slave device
- *                          to take measure, measure lasts lasts a maximum 
+ *                          to take measure, measure lasts lasts a maximum
  *                          of 38 milliseconds
- * 
- * @return int              If 0, communication was sucessful 
+ *
+ * @return int              If 0, communication was sucessful
  */
 int Ultrasonic_Sensor::takeMeasure()
 {
@@ -53,7 +53,7 @@ int Ultrasonic_Sensor::takeMeasure()
 /**
  * @brief                   This function receives data and converts distance from binary code to
  *                          value in centimeters.
- * 
+ *
  * @return                  Distance from obstacle in centimeters
  */
 uint16_t Ultrasonic_Sensor::getDistance()
@@ -65,8 +65,8 @@ uint16_t Ultrasonic_Sensor::getDistance()
 
 /**
  * @brief                   This function receives data and converts it to time needed for bounced sound wave
- *                          to return to sensor 
- * 
+ *                          to return to sensor
+ *
  * @return                  Time in microseconds needed for bounced sound wave to return
  */
 uint16_t Ultrasonic_Sensor::getDuration()

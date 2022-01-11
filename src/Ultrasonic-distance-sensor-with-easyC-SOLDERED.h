@@ -15,8 +15,8 @@
 #include "libs/Generic-easyC/easyC.h"
 
 #define TAKE_MEAS_REG 0
-#define DISTANCE_REG 1
-#define DURATION_REG 2
+#define DISTANCE_REG  1
+#define DURATION_REG  2
 
 class Ultrasonic_Sensor : public ULTRASONIC_DISTANCE_SENSOR::EasyC
 {
