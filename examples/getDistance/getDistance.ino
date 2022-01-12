@@ -8,7 +8,7 @@
  * @authors     Goran Juric@ soldered.com
  ***************************************************/
 
-#include "Ultrasonic-distance-sensor-with-easyC-SOLDERED.h"
+#include "Ultrasonic-distance-sensor-easyC-SOLDERED.h"
 
 Ultrasonic_Sensor hc(2,3); //Initializer for sensor without easyC
 
