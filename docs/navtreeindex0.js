@@ -1,8 +1,8 @@
 var NAVTREEINDEX0 =
 {
-"_ultrasonic-distance-sensor-with-easy_c-_s_o_l_d_e_r_e_d_8cpp.html":[3,0,2],
-"_ultrasonic-distance-sensor-with-easy_c-_s_o_l_d_e_r_e_d_8h.html":[3,0,3],
-"_ultrasonic-distance-sensor-with-easy_c-_s_o_l_d_e_r_e_d_8h_source.html":[3,0,3],
+"_ultrasonic-distance-sensor-easy_c-_s_o_l_d_e_r_e_d_8cpp.html":[3,0,2],
+"_ultrasonic-distance-sensor-easy_c-_s_o_l_d_e_r_e_d_8h.html":[3,0,3],
+"_ultrasonic-distance-sensor-easy_c-_s_o_l_d_e_r_e_d_8h_source.html":[3,0,3],
 "annotated.html":[2,0],
 "class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html":[2,0,0,0],
 "class_u_l_t_r_a_s_o_n_i_c___d_i_s_t_a_n_c_e___s_e_n_s_o_r_1_1_easy_c.html":[1,0,0,0],
