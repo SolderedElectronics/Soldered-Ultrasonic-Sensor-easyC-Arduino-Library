@@ -24,9 +24,10 @@ Ultrasonic_Sensor::Ultrasonic_Sensor()
  *
  * @param int _pin          Example parameter.
  */
-Ultrasonic_Sensor::Ultrasonic_Sensor(int _pin)
+Ultrasonic_Sensor::Ultrasonic_Sensor(int _trigPin, int _echoPin)
 {
-    pin = _pin;
+    echoPin = _echoPin;
+    trigPin = _trigPin;
     native = 1;
 }
 
@@ -35,7 +36,8 @@ Ultrasonic_Sensor::Ultrasonic_Sensor(int _pin)
  */
 void Ultrasonic_Sensor::initializeNative()
 {
-    pinMode(pin, INPUT);
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
 }
 
 /**
@@ -58,8 +60,23 @@ int Ultrasonic_Sensor::takeMeasure()
  */
 uint16_t Ultrasonic_Sensor::getDistance()
 {
-    readRegister(DISTANCE_REG, raw, 2 * sizeof(uint8_t));
-    value = raw[0] | (raw[1]) << 8;
+    if(native)
+    {
+        uint16_t getDistance()
+        digitalWrite(trigPin, LOW);
+        delayMicroseconds(2);
+        // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
+        digitalWrite(trigPin, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(trigPin, LOW);
+        // Reads the echoPin, returns the sound wave travel time in microseconds
+        value = pulseIn(echoPin, HIGH, 38000) * 0.034 / 2.0;
+    }
+    else
+    {
+        readRegister(DISTANCE_REG, raw, 2 * sizeof(uint8_t));
+        value = raw[0] | (raw[1]) << 8;
+    }
     return value;
 }
 
@@ -71,7 +88,22 @@ uint16_t Ultrasonic_Sensor::getDistance()
  */
 uint16_t Ultrasonic_Sensor::getDuration()
 {
-    readRegister(DURATION_REG, raw, 2 * sizeof(uint8_t));
-    value = raw[0] | (raw[1]) << 8;
+    if(native)
+    {
+        uint16_t getDistance()
+        digitalWrite(trigPin, LOW);
+        delayMicroseconds(2);
+        // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
+        digitalWrite(trigPin, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(trigPin, LOW);
+        // Reads the echoPin, returns the sound wave travel time in microseconds
+        value = pulseIn(echoPin, HIGH, 38000);
+    }
+    else
+    {
+        readRegister(DURATION_REG, raw, 2 * sizeof(uint8_t));
+        value = raw[0] | (raw[1]) << 8;
+    }
     return value;
 }
