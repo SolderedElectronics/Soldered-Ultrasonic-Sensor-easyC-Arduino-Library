@@ -22,7 +22,7 @@ class Ultrasonic_Sensor : public ULTRASONIC_DISTANCE_SENSOR::EasyC
 {
   public:
     Ultrasonic_Sensor();
-    Ultrasonic_Sensor(int _pin);
+    Ultrasonic_Sensor(int _echoPin, int _trigPin);
     int takeMeasure();
     uint16_t getDistance();
     uint16_t getDuration();
@@ -31,7 +31,7 @@ class Ultrasonic_Sensor : public ULTRASONIC_DISTANCE_SENSOR::EasyC
     void initializeNative();
 
   private:
-    int pin;
+    int echoPin,trigPin;
     char raw[2];
     uint16_t value;
 };

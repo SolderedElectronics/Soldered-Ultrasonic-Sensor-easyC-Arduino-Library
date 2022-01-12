@@ -1,10 +1,12 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Ultrasonic-distance-sensor-with-easyC-SOLDERED
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
+
+Ultrasonic_sensor	KEYWORD1
 
 ##################################################
 # Methods and Functions (KEYWORD2)

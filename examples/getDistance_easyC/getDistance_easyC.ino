@@ -10,7 +10,7 @@
 
 #include "Ultrasonic-distance-sensor-with-easyC-SOLDERED.h"
 
-Ultrasonic_Sensor hc(2,3); //Initializer for sensor without easyC
+Ultrasonic_Sensor hc(); //Initializer for sensor with easyC
 
 void setup()
 {
