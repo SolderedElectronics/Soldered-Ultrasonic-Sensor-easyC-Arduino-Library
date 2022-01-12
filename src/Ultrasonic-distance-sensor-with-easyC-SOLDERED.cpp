@@ -60,10 +60,9 @@ int Ultrasonic_Sensor::takeMeasure()
  */
 uint16_t Ultrasonic_Sensor::getDistance()
 {
-    if(native)
+    if (native)
     {
-        uint16_t getDistance()
-        digitalWrite(trigPin, LOW);
+        uint16_t getDistance() digitalWrite(trigPin, LOW);
         delayMicroseconds(2);
         // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
         digitalWrite(trigPin, HIGH);
@@ -88,10 +87,9 @@ uint16_t Ultrasonic_Sensor::getDistance()
  */
 uint16_t Ultrasonic_Sensor::getDuration()
 {
-    if(native)
+    if (native)
     {
-        uint16_t getDistance()
-        digitalWrite(trigPin, LOW);
+        uint16_t getDistance() digitalWrite(trigPin, LOW);
         delayMicroseconds(2);
         // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
         digitalWrite(trigPin, HIGH);
