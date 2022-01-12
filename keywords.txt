@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
-Ultrasonic_sensor	KEYWORD1
+Ultrasonic_Sensor	KEYWORD1
 
 ##################################################
 # Methods and Functions (KEYWORD2)

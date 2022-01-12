@@ -9,7 +9,7 @@
  ***************************************************/
 
 
-#include "Ultrasonic-distance-sensor-with-easyC-SOLDERED.h"
+#include "Ultrasonic-distance-sensor-easyC-SOLDERED.h"
 
 /**
  * @brief
@@ -62,7 +62,7 @@ uint16_t Ultrasonic_Sensor::getDistance()
 {
     if (native)
     {
-        uint16_t getDistance() digitalWrite(trigPin, LOW);
+        digitalWrite(trigPin, LOW);
         delayMicroseconds(2);
         // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
         digitalWrite(trigPin, HIGH);
@@ -89,7 +89,7 @@ uint16_t Ultrasonic_Sensor::getDuration()
 {
     if (native)
     {
-        uint16_t getDistance() digitalWrite(trigPin, LOW);
+        digitalWrite(trigPin, LOW);
         delayMicroseconds(2);
         // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
         digitalWrite(trigPin, HIGH);
