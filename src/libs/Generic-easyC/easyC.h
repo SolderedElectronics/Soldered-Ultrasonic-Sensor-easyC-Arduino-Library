@@ -6,7 +6,7 @@
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @authors     Goran Juric @ soldered.com
  ***************************************************/
 
 #ifndef __EASYC_LIBRARY__
