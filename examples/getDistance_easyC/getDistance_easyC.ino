@@ -10,12 +10,12 @@
 
 #include "Ultrasonic-distance-sensor-easyC-SOLDERED.h"
 
-Ultrasonic_Sensor hc(); //Initializer for sensor with easyC
+Ultrasonic_Sensor hc; //Initializer for sensor with easyC
 
 void setup()
 {
   Serial.begin(115200);
-  hc.begin;
+  hc.begin();
 }
 
 void loop()
