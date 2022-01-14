@@ -10,7 +10,10 @@
 
 #include "Ultrasonic-distance-sensor-easyC-SOLDERED.h"
 
-Ultrasonic_Sensor hc(2,3); //Initializer for sensor without easyC
+#define ECHOPIN 3
+#define TRIGPIN 2
+
+Ultrasonic_Sensor hc(TRIGPIN,ECHOPIN); //Initializer for sensor without easyC
 
 void setup()
 {
@@ -20,9 +23,6 @@ void setup()
 
 void loop()
 {
-  hc.takeMeasure();                             //Send command sensor to take measure
-  delay(50);                                    //Measure takes at most 38 miliseconds, and
-                                                //sensor should be idle at that time
   Serial.print("Distance from obstacle is: ");
   Serial.print(hc.getDistance());               //Get distance saved in sensors register
   Serial.println(" cm.");                       
