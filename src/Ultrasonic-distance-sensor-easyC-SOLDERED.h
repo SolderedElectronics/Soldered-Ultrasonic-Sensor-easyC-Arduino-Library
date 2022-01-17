@@ -6,6 +6,7 @@
  *
  * @copyright GNU General Public License v3.0
  * @authors     Goran Juric @ soldered.com
+ * @product     www.solde.red/333001
  ***************************************************/
 
 #ifndef __ULTRASONIC_DISTANCE_SENSOR__
