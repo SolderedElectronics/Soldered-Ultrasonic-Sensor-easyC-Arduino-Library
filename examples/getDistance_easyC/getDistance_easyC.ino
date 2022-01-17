@@ -30,5 +30,5 @@ void loop()
   Serial.print(hc.getDuration());               //Get time needed for bounced ultrasound wave 
                                                 //to return to the sensor
   Serial.println(" uS.");
-  delay(1000);
+  delay(250);
 }
