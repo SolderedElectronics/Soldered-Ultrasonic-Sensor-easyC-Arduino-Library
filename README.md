@@ -5,7 +5,7 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [Ultrasonic distance sensor](https://www.solde.red/SKU)                                                            |
+| [Ultrasonic distance sensor](https://www.solde.red/333001)                                                            |
 
 Ultrasonic distance sensor compliant with [easyC ecosystem](https://www.soldered.com/easyC). 
 
