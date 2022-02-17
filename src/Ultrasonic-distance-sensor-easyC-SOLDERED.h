@@ -13,7 +13,7 @@
 #define __ULTRASONIC_DISTANCE_SENSOR__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
+#include "libs/Generic-easyC/easyC.hpp"
 
 #define TAKE_MEAS_REG 0
 #define DISTANCE_REG  1
