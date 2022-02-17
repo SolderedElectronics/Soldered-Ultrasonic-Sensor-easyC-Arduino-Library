@@ -19,7 +19,7 @@
 #define DISTANCE_REG  1
 #define DURATION_REG  2
 
-class Ultrasonic_Sensor : public ULTRASONIC_DISTANCE_SENSOR::EasyC
+class Ultrasonic_Sensor : public EasyC
 {
   public:
     Ultrasonic_Sensor();
