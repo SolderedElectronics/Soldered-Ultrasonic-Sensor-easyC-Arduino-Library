@@ -14,8 +14,8 @@ Ultrasonic_Sensor hc; //Initializer for sensor with easyC
 
 void setup()
 {
-  Serial.begin(115200);
-  hc.begin();
+  Serial.begin(115200);  //Start serial communication with PC via UART
+  hc.begin();  //Initialize sensor
 }
 
 void loop()
