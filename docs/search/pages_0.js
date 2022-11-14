@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ultrasonic_20distance_20sensor_20arduino_20library_0',['Ultrasonic distance sensor Arduino library',['../index.html',1,'']]]
+  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
 ];
