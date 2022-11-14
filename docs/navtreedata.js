@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Ultrasound distance sensor with easyC", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", [
+    [ "Ultrasonic sensor with easyC Arduino library", "index.html", [
       [ "Have fun!", "index.html#autotoc_md8", null ]
     ] ],
     [ "Classes", "annotated.html", [
