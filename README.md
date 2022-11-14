@@ -1,4 +1,4 @@
-# NAZIV PROIZVODA Arduino library
+# Ultrasonic sensor with easyC Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
@@ -14,7 +14,7 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in *Ultrasonic sensor with easyC* hardware repository.
+You can find hardware design for this board in [*Ultrasonic sensor with easyC*](https://github.com/SolderedElectronics/Ultrasonic-sensor-with-easyC-hardware-design) hardware repository.
 
 ### Documentation
 
