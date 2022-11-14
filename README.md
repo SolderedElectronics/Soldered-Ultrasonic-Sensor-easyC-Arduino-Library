@@ -2,7 +2,7 @@
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Ultrasonic sensor with easyC](https://github.com/SolderedElectronics/Ultrasonic-sensor-with-easyC-hardware-design/blob/main/OUTPUTS/V1.1.1/Ultrasonic%20sensor%20with%20easyC.jpg) |
+| ![Ultrasonic sensor with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [Ultrasonic sensor with easyC](https://www.solde.red/333001)                                                            |
 
