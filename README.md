@@ -22,7 +22,7 @@ You can find hardware design for this board in [_Ultrasonic sensor with easyC_](
 
 Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the Ultrasonic sensor board
 - Installing an Arduino library
 
 ### Board compatibility
