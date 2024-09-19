@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['getdistance_0',['getDistance',['../class_ultrasonic___sensor.html#a62a5a113f17f065c0fa691dcca4e37a7',1,'Ultrasonic_Sensor']]],
+  ['getduration_1',['getDuration',['../class_ultrasonic___sensor.html#adb427a2a72bcf4e353cb62b5da9edd7b',1,'Ultrasonic_Sensor']]]
 ];
