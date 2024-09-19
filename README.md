@@ -5,9 +5,9 @@
 
 | ![Ultrasonic sensor with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :----------------------------------------------------------------------------------------------------: |
-|                      [Ultrasonic sensor with easyC](https://www.solde.red/333001)                      |
+|                      [Ultrasonic sensor with easyC](https://solde.red/333001)                      |
 
-Ultrasonic sensor compliant to [easyC ecosystem](https://www.soldered.com/en/easyC).
+Ultrasonic sensor compliant to [easyC ecosystem](https://www.soldered.com/easyc).
 
 ### Repository Contents
 
