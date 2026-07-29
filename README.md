@@ -1,13 +1,13 @@
-# Ultrasonic sensor with easyC Arduino library
+# Ultrasonic sensor with Qwiic Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library/actions/workflows/make_docs.yml)
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library/actions/workflows/arduino_lint.yml)
 
-| ![Ultrasonic sensor with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Ultrasonic sensor with Qwiic](https://soldered.com/cdn/shop/files/333001_featured-photo_cb09ce.jpg) |
 | :----------------------------------------------------------------------------------------------------: |
-|                      [Ultrasonic sensor with easyC](https://solde.red/333001)                      |
+|                      [Ultrasonic sensor with Qwiic](https://solde.red/333001)                      |
 
-Ultrasonic sensor compliant to [easyC ecosystem](https://www.soldered.com/easyc).
+The HC-SR04 ultrasonic sensor is an affordable and super-popular sensor that measures the distance between itself and an object located in front of the sensor. Very simple to use, it returns the distance in centimeters or inches. In this variation, it comes on a board with an Attiny microcontroller that sends readings from the sensor as a digital signal via the Qwiic connector to the microcontroller, which makes its connections a piece of cake.
 
 ### Repository Contents
 
@@ -17,7 +17,7 @@ Ultrasonic sensor compliant to [easyC ecosystem](https://www.soldered.com/easyc)
 
 ### Hardware design
 
-You can find hardware design for this board in [_Ultrasonic sensor with easyC_](https://github.com/SolderedElectronics/Ultrasonic-sensor-with-easyC-hardware-design) hardware repository.
+You can find hardware design for this board in [_Ultrasonic sensor with Qwiic_](https://github.com/SolderedElectronics/Ultrasonic-sensor-with-easyC-hardware-design) hardware repository.
 
 ### Documentation
 
